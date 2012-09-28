@@ -1,6 +1,14 @@
-<header> 
-    <hgroup class="clearfix"> 
-        <h1><a href="#">HTML5 <span>template</span></a></h1> 
-        <h2>Just another awesome description</h2> 
-    </hgroup>
+<header class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+      <div class="container">
+      	<%= link_to "lumberjack", '#', id: "logo" %>
+	    <nav>
+		  <ul class="nav pull-right">
+		    <li><%= link_to "Home",    '#' %></li>
+		    <li><%= link_to "Help",    '#' %></li>
+		    <li><%= link_to "Sign in", '#' %></li>
+		  </ul>
+		</nav>
+	  </div>
+    </div>
 </header>

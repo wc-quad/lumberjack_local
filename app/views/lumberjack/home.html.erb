@@ -1,8 +1,13 @@
 <% provide(:title, 'Home') %>
 <div id="main" class="clearfix">
+    	<div class="center hero-unit"> 
+	        <h1>Lumberjack</h1> 
+	        <h2>The system admin's root cause analysis utility for servers</h2> 
+	    </div>
+
     <aside>
         <nav>
-            <ul id="menu">
+            <ul id="menu"> <!--TODO: id="modules" -->
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Logstash</a></li>
                 <li><a href="#">Server Ping</a></li>
@@ -12,19 +17,24 @@
         </nav>
     </aside>
     
+    <div id="explorer">
+    	<h2>Explorer</h2>
+    	<article>
+    		<section></section>
+    		<section></section>
+    	</article>
+    </div>
+    
     <div id="content">
+    	<h2>Content</h2>
         <article>
             <section>
-                <h1><a href="http://www.red-team-design.com/css3-dropdown-menu">CSS3 Dropdown menu</a></h1>
-                <figure>
-                    <img src="http://www.red-team-design.com/wp-content/uploads/2011/03/css-menu.png" width="600" height="200" alt="CSS3 Dropdown menu">
-                    <figcaption>Contains clean and accessible HTML structure. Javascript fix only for IE6.</figcaption>
-                </figure>
+                <p>Section 1: Module contents live here</p>
             </section>
-            <footer>Posted on <span>March 18th, 2011</span></footer>
+            <section>
+            	<p>Section 2: more module contents</p>
+            </section>
         </article>
     </div>
+    
 </div>
-
-<%= yield %>
-
