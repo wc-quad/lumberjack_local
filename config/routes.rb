@@ -1,4 +1,6 @@
 Lumberjack::Application.routes.draw do
+  get "lumberjack/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
